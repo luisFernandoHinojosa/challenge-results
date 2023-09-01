@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Results summary component</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+<body>
+
+  <div class="app-web">
+    <div class="result">
+      <h2 class="result__title"> Your Result</h2>
+
+      <div class="circle">
+        <span class="circle__score">76</span>
+        <span class="circle__total">of 100</span>
+      </div>
+      <div class="result__info">
+        <h3 class="result__subtitle">Great</h3>
+        <p class="result__text">You scored higher than 65% of the people who have taken these tests.</p>
+      </div>
+    </div>
+    <div class="sumary">
+      <h2 class="sumary__title">Sumary</h2>
+
+      <ul class="sumary__list">
+
+        <li class="sumary__item item__reaction">
+          <div class="sumary__info">
+            <img src="./assets/img/icon-reaction.svg" alt="Reaction">
+            <h3 class="sumary__name">Reaction</h3>
+          </div>
+          <span class="sumary__score">80 <span
+          class="sumary__total">/ 100</span>
+        </li>
+
+        <li class="sumary__item item__memory">
+          <div class="sumary__info">
+            <img src="./assets/img/icon-memory.svg" alt="Reaction">
+            <h3 class="sumary__name">Memory</h3>
+          </div>
+          <span class="sumary__score">92 <span
+            class="sumary__total">/ 100</span>
+        </li>
+
+        <li class="sumary__item item__verbal">
+          <div class="sumary__info">
+            <img src="./assets/img/icon-verbal.svg" alt="Reaction">
+            <h3 class="sumary__name">Verbal</h3>
+          </div>
+          <span class="sumary__score">61 <span
+            class="sumary__total">/ 100</span>
+        </li>
+
+        <li class="sumary__item item__visual">
+          <div class="sumary__info">
+            <img src="./assets/img/icon-visual.svg" alt="Reaction">
+            <h3 class="sumary__name">Visual</h3>
+          </div>
+          <span class="sumary__score">72 <span
+            class="sumary__total">/ 100</span>
+        </li>
+
+      </ul>
+      <button type="button" class="sumary__button">Continue</button>
+    </div>
+  </div>  
+</body>
+</html>
